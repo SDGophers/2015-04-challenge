@@ -1,3 +1,6 @@
+# WIFI: TinyFactoryGuest
+# PW: TinyFactory1043
+
 # HitBox.
 
 [![Join the chat at https://gitter.im/SDGophers/2015-04-challenge](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SDGophers/2015-04-challenge?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -19,6 +22,10 @@ Create a web service using only the standard library, that when you hit a partic
 url it will return an png counting the number of times that url has been hit. Use
 the given png encoding the numbers 0-9, and the characters ",." to create the digits to display.
 
+![Numbers Mask](https://raw.githubusercontent.com/SDGophers/2015-04-challenge/master/images/numbers.png)
+
+This is a 300x400 px image, with each glyph being 100x100 px.
+
 The url should look like the following:
 
 GET http://localhost:8080/counter/${{identifier}}
@@ -37,6 +44,13 @@ library.
 
 extra credit: See if you can support other formats other then an png. 
 Use either the extension (${{identifier}}.png, or Accept Header).
+
+### References
+* [image documentation](http://godoc.org/image)
+* [image/draw documentation](http://godoc.org/image/draw)
+* [net/http documentation](http://godoc.org/net/http)
+* [Blog post on how to use image/draw standard library](http://blog.golang.org/go-imagedraw-package)
+
 
 ## 1,000 Vistors
 
