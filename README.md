@@ -1,5 +1,7 @@
 # HitBox.
 
+[![Join the chat at https://gitter.im/SDGophers/2015-04-challenge](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SDGophers/2015-04-challenge?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The challenge for April meeting of SDGophers is to create an old visitor counter.
 Back in prehistory (late 90's early 2000's) of internet, websites would display
 the number of people had visited by showing a counter. This counter was usually
